@@ -1,0 +1,81 @@
+/* CONTAINER */
+
+.app-container
+{
+  font-family: 'Montserrat', sans-serif;
+
+  background:	#c67262;
+
+  padding-top: 30%;
+}
+
+
+
+
+.app-title-wrapper
+{
+  height: 70vh;
+
+  
+}
+
+.app-title-container
+{
+  max-width: 1400px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+  color: white;
+}
+
+
+
+
+
+
+/* TITLE */
+
+.app-title
+{
+  font-size: 4rem;
+  font-weight: 600;
+
+  letter-spacing: .3rem;
+}
+
+.app-provider
+{
+  font-size: 3.5rem;
+  letter-spacing: .3rem;
+}
+
+.app-info
+{
+  font-size: 1.5rem;
+  letter-spacing: .3rem;
+}
+
+.app-comingsoon 
+{
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+
+  font-size: 1.5rem;
+  letter-spacing: .3rem;
+
+  width: 20%;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 20% }
+}
