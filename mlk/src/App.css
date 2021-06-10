@@ -6,7 +6,7 @@
 
   background:	#c67262;
 
-  padding-top: 30%;
+  height: 100vh;
 }
 
 
@@ -14,8 +14,7 @@
 
 .app-title-wrapper
 {
-  height: 70vh;
-
+  padding-top: 40vh;
   
 }
 
@@ -58,24 +57,24 @@
   letter-spacing: .3rem;
 }
 
-.app-comingsoon 
+.app-comingsoon
 {
-  overflow: hidden; 
-  border-right: .15em solid orange; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
-  typing 3.5s steps(40, end),
-  blink-caret .75s step-end infinite;
-
-  font-size: 1.5rem;
-  letter-spacing: .3rem;
-
-  width: 20%;
+  text-transform: uppercase;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 20% }
+
+
+@media only screen and (max-width: 768px)
+{
+  .app-title
+  {
+    font-size: 2.5rem;
+  }
+
+  .app-provider
+  {
+    font-size: 1.8rem;
+  }
+
+
 }
